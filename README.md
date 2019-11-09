@@ -34,22 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html tags are a way for us to mark up html code with intention. Instead of making an html document completely out of divs and spans, which can get the job done, we can give meaning to each div and span. This makes it so that the page is more clearly understood by both us, as coders, and machines, such as search engines and screen readers. Semantic html markup allows for different importance to be given to different parts of the page. This importance can let a search engine determine the relevance of a page by the semantic markup of the page’s content. A tag of <h1> will be given more ‘weight’ of importance by a machine, and all by a person, than a simple <div>.  When a search engine sees the title of a page in a heavily weighted semantic html tag, chances are good that a search for what is in the title will return a semantic page with better results than one without semantic markup.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline elements will display in a line with each other. One inline element will follow another one immediately after the previous one. A block element will start on a new line each time one is specified and stretch to fill the space on the page. Inline elements cannot have a set width and height, and will only respect left and right margins and padding, not top and bottom. Block elements can have set height and width, and will respect all margins and padding given to them.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+```align-items: center``` works on the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to control versions of code across multiple development stations at the same time. Each developer can work independently of each other, and allow them to merge their changes into one version of the master code. It allows conflict in coding to be seen and changed before they get pushed to a final product. It allows the individual developers to see and mitigate problems before they make it to the master code. It also lets each developer remain up to date with the current version of the master code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
