@@ -88,7 +88,7 @@ a {
     width: 100%;
     justify-content: space-evenly;
     margin: 15px;
-    color:green;
+    
 }
 .top-content {
     display: flex;
@@ -97,7 +97,14 @@ a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-contentA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -192,4 +199,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.midAboutCont {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin: 20px 0 20px 0;
+    
+}
+.contImg {
+    margin: 20px 0 20px 0;
+}
+.midContBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 370px;
+    border-bottom: 1px dashed black;
+}
+.botAbout {
+    margin:40px 20px 40px 00px;
+
+}
+.lmButton{
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding:10px 20px 10px 20px;
+    margin: 15px 0 15px 0; 
 }
