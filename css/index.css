@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,7 +71,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header {
+    margin-bottom: 40px;;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: baseline;
+}
+a {
+    text-decoration: none;
+}
+.navLink {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 15px;
+    color:green;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
