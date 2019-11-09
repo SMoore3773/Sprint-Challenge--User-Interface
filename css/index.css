@@ -83,12 +83,12 @@ header {
 a {
     text-decoration: none;
 }
-.navLink {
+.navLinkList {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     margin: 15px;
-    
+    color: black;
 }
 .top-content {
     display: flex;
@@ -231,4 +231,16 @@ footer nav a {
     border-radius: 10px;
     padding:10px 20px 10px 20px;
     margin: 15px 0 15px 0; 
+}
+.lmButton:hover {
+    background-color: rgb(205, 249, 255);
+}
+.navLink{
+    color: black;
+}
+.navLink:visited {
+    color: black;
+}
+.navLink:hover {
+    text-shadow: 2px 2px 5px rgb(102, 144, 235);
 }
